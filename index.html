@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  user-scalable=no, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/Personalizados.css">
+</head>
+
+<body>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('#bs4-multi-slide-carousel').carousel({
+            interval: 1500
+        })
+    </script>
+    <!-- navbar menu -->
+    <div id="menu" class="navbar-dark bg-light" id="navbar">
+        <div class="pt-1 d-none d-md-block">
+            <div class="row justify-content-end">
+                <div class="col-auto"><a
+                        href="https://www.facebook.com/Dimensiones-Empresariales-Constructora-Inmobiliaria-SAS-1880816038632150/"><img
+                            src="images/facebook.png" id="imgsocial"></a></div>
+                <div class="col-auto"><a href="https://www.youtube.com/channel/UCzvyG0xdQr0JJkZZTnff3oQ"><img
+                            src="images/youtube.png" id="imgsocial"></a></div>
+                <div class="col-auto"><a href="https://twitter.com/DimensionesEmpr"><img src="images/twitter.png"
+                            id="imgsocial"></a></div>
+                <div class="col-auto"><a href="https://www.instagram.com/dimensionessas"><img src="images/instagram.png"
+                            id="imgsocial"></a></div>
+                <div class="col-auto"><a href="https://www.linkedin.com/in/dimensiones-empresariales-416556b4/"><img
+                            src="images/linkedin.png" id="imgsocial"></a></div>
+                <div class="col-auto mr-4"><a
+                        href="https://api.whatsapp.com/send?phone=573013233582&amp;text=&amp;source=&amp;data="><img
+                            src="images/whatsapp.png" id="imgsocial"></a></div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-xl navbar-dark bg-light pt-0 pb-0">
+            <div class="container-fluid">
+                <a class="navbar-brand p-0" href="./">
+                    <img src="images/LogoDimensiones.png" id="logo" alt="Logo">
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-uppercase align-items-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="">Quiénes Somos</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="">Servicios</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="">Transacciones</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="">Inmuebles</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="">Noticias</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="">Consignar Inmueble</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://gateway2.tucompra.com.co/sites/dimensionesempresariales"
+                                target="_blank"><img src="images/pse.png" id="pse"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- slider -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" id="slider">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slide1.jpg" id="imgSlider" class="d-block w-100" alt="imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide2.jpg" id="imgSlider" class="d-block w-100" alt="imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide3.jpg" id="imgSlider" class="d-block w-100" alt="imagen 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+    <!-- Buscador -->
+    <form id="buscador">
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                    <input type="text" id="Codigo" name="Codigo" class="form-control" placeholder="Código">
+                    <select class="form-control">
+                        <option>Tipo Inmueble</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <select class="form-control">
+                        <option>Cuidad</option>
+                        <option>Bogotá</option>
+                        <option>Funza</option>
+                        <option>Mosquera</option>
+                        <option>Siberia</option>
+                        <option>Soacha</option>
+                    </select>
+                    <select class="form-control">
+                        <option>Barrio</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <select class="form-control" id="gestion">
+                        <option>Gestion</option>
+                        <option>Arriendo</option>
+                        <option>Arriendo/venta</option>
+                        <option>Avaluo</option>
+                        <option>Venta</option>
+                    </select>
+                </div>
+                <div class="row" id="precios">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Precio Minímo">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Precio Máximo">
+                    </div>
+                </div>
+                <div class="container">
+                    <button type="button" id="buscar" class="btn btn-primary btn-md btn-block">Buscar</button>
+                </div>
+            </div>
+            <br>
+        </div>
+    </form>
+    <!-- destacados -->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h2 class="titulo">
+                    Propiedades destacadas
+                </h2>
+            </div>
+            <div class="col-12 col-sm-10">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-11 col-md-6 col-lg-4 contenedor-tarjeta" id="destacados">
+                        <div class="card">
+                            <div class="overlay-img">
+                                <img src="images/propiedad1.jpg" alt="propiedad 1" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Chapinero, Bogota</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Código: 283</li>
+                                <li class="list-group-item">Oficina en Arriendo</li>
+                                <li class="list-group-item"> Valor: $6,000,000</li>
+                                <li class="list-group-item">Baños:1</li>
+                                <li class="list-group-item">Alcobas:0</li>
+                                <li class="list-group-item">Area:160m<sup>2</sup></li>
+                            </ul>
+                            <div class="card-body text-center">
+                                <a href="" class="card-link">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-11 col-md-6 col-lg-4 contenedor-tarjeta" id="destacados">
+                        <div class="card">
+                            <div class="overlay-img">
+                                <img src="images/propiedad2.jpg" alt="propiedad 2" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">El Salitre, Bogota</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Código: 161</li>
+                                <li class="list-group-item">Oficina en Arriendo</li>
+                                <li class="list-group-item"> Valor: $17,820,000</li>
+                                <li class="list-group-item">Baños:0</li>
+                                <li class="list-group-item">Alcobas:0</li>
+                                <li class="list-group-item">Area:297m<sup>2</sup></li>
+                            </ul>
+                            <div class="card-body text-center">
+                                <a href="" class="card-link">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-11 col-md-6 col-lg-4 contenedor-tarjeta" id="destacados">
+                        <div class="card">
+                            <div class="overlay-img">
+                                <img src="images/propiedad3.jpg" alt="propiedad 3" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Santa sofia, Bogota</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Código: 71</li>
+                                <li class="list-group-item">Bodega en Arriendo</li>
+                                <li class="list-group-item"> Valor: $6,500,000</li>
+                                <li class="list-group-item">Baños:0</li>
+                                <li class="list-group-item">Alcobas:0</li>
+                                <li class="list-group-item">Area:350m<sup>2</sup></li>
+                            </ul>
+                            <div class="card-body text-center">
+                                <a href="" class="card-link">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-11 col-md-6 col-lg-4 contenedor-tarjeta" id="destacados">
+                        <div class="card">
+                            <div class="overlay-img">
+                                <img src="images/propiedad4.jpg" alt="propiedad 4" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">San Fernando Occidental, Bogota</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Código: 65</li>
+                                <li class="list-group-item">Bodega en Arriendo</li>
+                                <li class="list-group-item"> Valor: $6,500,000</li>
+                                <li class="list-group-item">Baños:0</li>
+                                <li class="list-group-item">Alcobas:0</li>
+                                <li class="list-group-item">Area:360m<sup>2</sup></li>
+                            </ul>
+                            <div class="card-body text-center">
+                                <a href="" class="card-link">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-11 col-md-6 col-lg-4 contenedor-tarjeta" id="destacados">
+                        <div class="card">
+                            <div class="overlay-img">
+                                <img src="images/propiedad5.jpg" alt="propiedad 5" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">La Aurora, Bogota</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Código: 55</li>
+                                <li class="list-group-item">Bodega en Arriendo</li>
+                                <li class="list-group-item"> Valor: $6,500,000</li>
+                                <li class="list-group-item">Baños:4</li>
+                                <li class="list-group-item">Alcobas:0</li>
+                                <li class="list-group-item">Area:550m<sup>2</sup></li>
+                            </ul>
+                            <div class="card-body text-center">
+                                <a href="" class="card-link">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider2 -->
+    <div class="container-slider2">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h2 class="titulo">
+                    Nuestros aliados
+                </h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div id="bs4-multi-slide-carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col"><img src="images/LOGO EL LIBERTADOR.png" class="img-fluid"
+                                        alt="1 slide">
+                                </div>
+                                <div class="col"><img src="images/LOGO bolivar.png" class="img-fluid" alt="2 slide">
+                                </div>
+                                <div class="col"><img src="images/logo_metrocuadrado.png" class="img-fluid"
+                                        alt="3 slide">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col"><img src="images/logomapfre.png" class="img-fluid" alt="1 slide"></div>
+                                <div class="col"><img src="images/logozurich.png" class="img-fluid" alt="2 slide"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Noticias-->
+    <div class="container-noticias">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h2 class="titulo">
+                    Ultimas Noticias
+                </h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-11 col-lg-10">
+                <div class="row justify-content-center">
+                    <div class="col-11 col-md-6 col-lg-4">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">INC de bienes inmuebles y la aplicación de la norma de
+                                    bancarización
+                                </h5>
+                                <p class="card-text">El artículo 512-22 del ET y el Decreto 961 de junio de 2019</p>
+                                <a href="detalle-noticia.php?co=2" class="btn btn-primary">Ver más</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                publicado el: 2019-07-18
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Noticias-->
+    <footer>
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="text-center mt-3">Datos de Contácto</h4>
+                </div>
+                <ul class="list-group list-group-flush row text-left text-md-center" id="lista-contacto">
+                    <li class="list-group-item col-12 col-md-6">
+                        Calle 20 # 82 52 of.334 Centro
+                        Empresarial Hayuelos
+                    </li>
+                    <li class="list-group-item correo col-12 col-md-6">
+                        <a
+                            href="mailto:administracion@dimensionesempresariales.com">administracion@dimensionesempresariales.com</a>
+                    </li>
+                    <li class="list-group-item col-12 col-md-6">
+                        <a href="tel:0313549835">354 9835</a>
+                        -
+                        <a href="tel:0313565589">356 5589</a>
+                    </li>
+                    <li class="list-group-item col-12 col-md-6">
+                        <a href="tel:+573013233582">301 323 3582</a>
+                        -
+                        <a href="tel:+573192588096">319 258 8096</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
